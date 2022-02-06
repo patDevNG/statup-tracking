@@ -11,7 +11,9 @@ const buildUserContext = ({ req, res } = {}) => {
   const context = {
     req,
     res,
-    lang: req.headers['accept-language'] ? req.headers['accept-language'] : 'en',
+    lang: req.headers['accept-language']
+      ? req.headers['accept-language']
+      : 'en',
     mutations,
     queries,
   };
@@ -25,7 +27,7 @@ module.exports = (app) => {
         typeDefs: gql(typeDefs),
         resolvers,
       },
-    ]),
+    ])
   );
   const server = new ApolloServer({
     schema,

@@ -1,6 +1,6 @@
-const {getAllStartupStage } = require('./getAllStartupStage.resolver')
-const {getStartupStageById } = require('./getStartupStageById.resolver')
+const { getAllStartupStage } = require('./getAllStartupStage.resolver');
+const { getStartupStageById } = require('./getStartupStageById.resolver');
 module.exports = {
- getAllStartupStage,
- getStartupStageById
-}
+  getAllStartupStage,
+  getStartupStageById,
+};

@@ -26,6 +26,6 @@ type StartupStages{
 const resolvers = require('../resolvers');
 
 module.exports = {
- typeDefs,
- resolvers
-}
+  typeDefs,
+  resolvers,
+};

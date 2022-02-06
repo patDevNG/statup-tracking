@@ -1,5 +1,5 @@
-const {StartupStatges} = require('./stages.model');
+const { StartupStatges } = require('./stages.model');
 
 module.exports = {
-    StartupStatges
-}
+  StartupStatges,
+};

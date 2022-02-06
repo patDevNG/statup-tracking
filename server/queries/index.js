@@ -1,7 +1,7 @@
-const {getAllStartupStage} = require('./getAllStartupstages.query');
+const { getAllStartupStage } = require('./getAllStartupstages.query');
 const { getStartupStageById } = require('./getStartupStagById.query');
 
 module.exports = {
-    getAllStartupStage,
-    getStartupStageById
-}
+  getAllStartupStage,
+  getStartupStageById,
+};
